@@ -1,0 +1,100 @@
+.hero-section-container{
+    background-image: url('../assets/Images/Hero_section.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  height: 90vh; 
+  justify-content: center;
+  background-color: black;
+   color: white;
+   text-align: center;
+   font-family: 'inter';
+   padding: 5rem 0rem;
+   .hero-section-heading{
+     font-size: 24px;
+   }
+   .hero-section-subheading-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+   }
+   .hero-section-subheading{
+    color: #657789;
+    width: 60vw;
+    font-size: 2.5vw;
+   }
+   .hero-section-button{
+    padding: 14px 2.8rem;
+    margin-top: 3rem;
+    background-color: #3661FF;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+   }
+
+}
+
+@media only screen and (max-width: 1200px){
+    .hero-section-container{
+        height: 90vh;
+        .hero-section-subheading{
+            width: 75vw;
+            font-size: 3.5vw;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .hero-section-container{
+        height: 80vh;
+        .hero-section-subheading{
+            width: 70vw;
+            font-size: 3vw;
+        }
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .hero-section-container{
+        height: 60vh;
+        padding: 3rem 0rem;
+        .hero-section-heading{
+            font-size: 16px;
+          }
+        .hero-section-subheading{
+            width: 70vw;
+            font-size: 20px;
+            /* font-size: 3vw; */
+        }
+        .hero-section-button{
+            padding: 12px 2rem;
+            margin-top: 2rem;
+            background-color: #3661FF;
+            border: none;
+            outline: none;
+            color: white;
+            font-size: 16px;
+           }
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .hero-section-container{
+        height: 55vh;
+        .hero-section-heading{
+            font-size: 16px;
+          }
+        .hero-section-subheading{
+            width: 90vw;
+            font-size: 18px;
+        }
+        .hero-section-button{
+            padding: 10px 1.8rem;
+            margin-top: 1.5rem;
+            font-size: 14px;
+           }
+    }
+}

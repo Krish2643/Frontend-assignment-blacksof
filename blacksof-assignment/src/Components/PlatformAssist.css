@@ -1,0 +1,162 @@
+.platform-container{
+    padding: 3rem 15vw;
+    color: black;
+    font-family: 'inter';
+    font-size: 2.5vw;
+    .heading{
+        font-size: 48px;
+        text-align: center;
+    }
+    .platform-cards-row{
+        display: flex;
+    }
+    img{
+        width: 60px;
+    }
+    .platfrom-card1{
+        padding-top: 5rem;
+        width: 35vw;
+        border-right: 2.47px solid #8E8D8D26;
+        border-bottom: 2.47px solid #8E8D8D26;
+        p{
+            width: 25vw;
+        }
+    }
+    .platfrom-card2{
+        padding-top: 5rem;
+        text-align: center;
+        width: 40vw;
+        border-bottom: 2.47px solid #8E8D8D26;
+       
+    }
+    .platfrom-card3{
+        padding-top: 5rem;
+        /* font-size: 2.5vw; */
+        width: 20vw;
+        border-right: 2.47px solid #8E8D8D26;
+        border-bottom: 2.47px solid #8E8D8D26;
+        p{
+            width: 25vw;
+            /* background-color: blueviolet; */
+        }
+    }
+    .platfrom-card4{
+        padding-top: 5rem;
+        /* font-size: 2.5vw; */
+        width: 70vw;
+        text-align: center;
+        border-bottom: 2.47px solid #8E8D8D26;
+        div{
+            /* background-color: palegoldenrod; */
+            display: flex;
+            justify-content: center;
+            p{
+                width: 30vw;
+                text-align: start;
+            }
+        }
+    }
+    .platfrom-card5{
+        padding-top: 5rem;
+        width: 43vw;
+        border-right: 2.47px solid #8E8D8D26;
+        border-bottom: 2.47px solid #8E8D8D26;
+        p{
+            width: 40vw;
+        }
+    }
+    .platfrom-card6{
+        padding-top: 5rem;
+        /* font-size: 2.5vw; */
+        width: 70vw;
+        text-align: center;
+        border-bottom: 2.47px solid #8E8D8D26;
+        div{
+            /* background-color: palegoldenrod; */
+            display: flex;
+            justify-content: center;
+            p{
+                width: 25vw;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1024px){
+    .platform-container{
+        .heading{
+            font-size: 35px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .platform-container{
+      padding: 3rem 5vw;
+      font-size: 3vw ;
+      .heading{
+        font-size: 30px;
+    }
+      img{
+        width: 40px;
+      }
+      .platfrom-card1{
+        padding-top: 4rem;
+        width: 40vw;
+        p{
+            width: 35vw;
+        }
+    }
+    .platfrom-card2{
+        padding-top: 4rem;
+        text-align: center;
+        width: 40vw;
+        border-bottom: 2.47px solid #8E8D8D26;      
+    }
+    .platfrom-card3{
+        padding-top: 4rem;
+        width: 30vw;
+        p{
+            width: 25vw;
+        }
+    }
+    .platfrom-card4{
+        padding-top: 4rem;
+        width: 60vw;
+        text-align: center;
+        div{
+            p{
+                width: 40vw;
+            }
+        }
+    }
+    .platfrom-card5{
+        padding-top: 4rem;
+        width: 55vw;
+        p{
+            width: 45vw;
+        }
+    }
+    .platfrom-card6{
+        padding-top: 4rem;
+        width: 65vw;
+        text-align: center;
+        border-bottom: 2.47px solid #8E8D8D26;
+        div{
+            p{
+                width: 30vw;
+            }
+        }
+    }
+    }
+}
+
+@media only screen and (max-width: 425px){
+  .platform-container{
+    font-size: 5vw;
+    .heading{
+        font-size: 25px;
+    }
+  }
+}
