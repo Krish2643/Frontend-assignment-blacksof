@@ -9,7 +9,6 @@ const Navbar: React.FC = () => {
 
    const handleClick = ():void=>{
     setVisible(!visible);
-    console.log("clicked");
    }
 
   return (
