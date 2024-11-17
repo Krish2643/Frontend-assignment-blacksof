@@ -1,16 +1,8 @@
 import React from 'react';
-import './Products.css';
+import './PlatformAssist.css';
 import img from '../assets/Images/platfrom.png'
 
 const PlatformAssist = () => {
-  // const items = [
-  //   { text: 'Saves on power consumption & related costs' },
-  //   { text: 'Lowers downtimes' },
-  //   { text: 'Detects power thefts.' },
-  //   { text: 'Ensures smart monitoring and control of the street light infrastructure.' },
-  //   { text: 'Ensures real-time actionable analytics on power failures, lamp malfunctions, voltage failures, etc.' },
-  //   { text: 'Ensures security in the neighborhood' },
-  // ];
 
   return (
     <div className="platform-container">

@@ -6,6 +6,7 @@
     .heading{
         font-size: 48px;
         text-align: center;
+        margin-bottom: 2rem;
     }
     .platform-cards-row{
         display: flex;

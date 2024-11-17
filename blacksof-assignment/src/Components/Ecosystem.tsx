@@ -1,10 +1,10 @@
 import React from "react";
 import "./Ecosystem.css";
 import f1 from '../assets/Images/lamp.png'
-import f2 from '../assets/Images/lamp.png'
-import f3 from '../assets/Images/lamp.png'
-import f4 from '../assets/Images/lamp.png'
-import f5 from '../assets/Images/lamp.png'
+import f2 from '../assets/Images/router.png'
+import f4 from '../assets/Images/internet.png'
+import f5 from '../assets/Images/file.png'
+import f3 from '../assets/Images/cloud.png'
 
 const Ecosystem = () => {
   return (

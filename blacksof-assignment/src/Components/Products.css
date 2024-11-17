@@ -39,6 +39,10 @@
   }
   .product-list-image{
    width: 41vw;
+   img{
+    width: 100%;
+    object-fit: cover;
+   }
   }
   .product-list-details{
     background: linear-gradient(180deg, #FFFFFF 0%, #E1F4FF 100%);
