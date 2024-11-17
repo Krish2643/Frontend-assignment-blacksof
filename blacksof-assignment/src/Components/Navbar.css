@@ -44,6 +44,23 @@
     }
 
 }
+.navbar-mobile-list{
+   display: none; 
+}
+
+.navbar-mobile-list-visible{
+    display: block;
+    position: absolute;
+    font-family: 'inter';
+    color: white;
+    background-color: rgb(37, 34, 34);
+    width: 100%;
+    text-align: center;
+    p{
+        margin-bottom: 1rem;
+        cursor: pointer;
+    }
+}
 
 @media only screen and (max-width: 1200px){
     .navbar-container{
@@ -59,11 +76,16 @@
         .navbar-hamburder{
             display: block;
             font-size: 25px;
+            cursor: pointer;
         }
         .navbar-lists{
             display: none;
         }
     }
+    .navbar{
+        position: relative;
+    }
+    
 }
 
 @media only screen and (max-width: 480px){
