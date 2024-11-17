@@ -3,7 +3,7 @@ import './Products.css'
 import product from '../assets/Images/product-image.png'
 import arrow from '../assets/Images/icon_png.png'
 
-const Products = () => {
+const Products: React.FC = () => {
 
    const data = ['Centralized Control & Monitoring System', 'NEMA-Mounted VOLC 1160', 'Retrofit Street Light Controller VOLC 2160', 'Retrofit Street Light Controller VOLC 2180', 'Retrofit Street Light Controller VOLC 4180']
 

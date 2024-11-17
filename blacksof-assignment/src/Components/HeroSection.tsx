@@ -1,7 +1,7 @@
 import React from 'react'
 import './HeroSection.css'
 
-const HeroSection = () => {
+const HeroSection: React.FC = () => {
   return (
     <div className='hero-section-container'>
       <p className='hero-section-heading' >Smart Lighting Solutions</p>

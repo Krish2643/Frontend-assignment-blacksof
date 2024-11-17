@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 import logo from '../assets/Images/wifi.png'
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <div className='footer-container' >
         <div className='footer-buttons' >

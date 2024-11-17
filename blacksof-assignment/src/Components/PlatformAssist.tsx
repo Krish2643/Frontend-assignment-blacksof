@@ -2,7 +2,7 @@ import React from 'react';
 import './PlatformAssist.css';
 import img from '../assets/Images/platfrom.png'
 
-const PlatformAssist = () => {
+const PlatformAssist: React.FC = () => {
 
   return (
     <div className="platform-container">

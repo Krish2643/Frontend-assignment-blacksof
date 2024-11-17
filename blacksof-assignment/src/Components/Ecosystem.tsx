@@ -6,7 +6,7 @@ import f4 from '../assets/Images/internet.png'
 import f5 from '../assets/Images/file.png'
 import f3 from '../assets/Images/cloud.png'
 
-const Ecosystem = () => {
+const Ecosystem: React.FC = () => {
   return (
     <div className="ecosystem-container">
       <h1 className="heading">Ecosystem</h1>
