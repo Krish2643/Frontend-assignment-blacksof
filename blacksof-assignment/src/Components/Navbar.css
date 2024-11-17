@@ -44,23 +44,11 @@
     }
 
 }
-.navbar-mobile-list{
+.navbar-mobile-list-visible{
    display: none; 
 }
 
-.navbar-mobile-list-visible{
-    display: block;
-    position: absolute;
-    font-family: 'inter';
-    color: white;
-    background-color: rgb(37, 34, 34);
-    width: 100%;
-    text-align: center;
-    p{
-        margin-bottom: 1rem;
-        cursor: pointer;
-    }
-}
+
 
 @media only screen and (max-width: 1200px){
     .navbar-container{
@@ -85,12 +73,38 @@
     .navbar{
         position: relative;
     }
+    .navbar-mobile-list-visible{
+        display: block;
+        position: absolute;
+        font-family: 'inter';
+        color: white;
+        background-color: rgb(37, 34, 34);
+        width: 100%;
+        text-align: center;
+        p{
+            margin-bottom: 1rem;
+            cursor: pointer;
+        }
+    }
     
 }
 
 @media only screen and (max-width: 480px){
     .navbar-container{
        padding: 1.1rem 2rem;
+    }
+    .navbar-mobile-list-visible{
+        display: block;
+        position: absolute;
+        font-family: 'inter';
+        color: white;
+        background-color: rgb(37, 34, 34);
+        width: 100%;
+        text-align: center;
+        p{
+            margin-bottom: 1rem;
+            cursor: pointer;
+        }
     }
 }
 
