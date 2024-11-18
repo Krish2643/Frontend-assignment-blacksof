@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar: React.FC = () => {
 
-   const [visible, setVisible] = useState<boolean>(true);
+   const [visible, setVisible] = useState<boolean>(false);
 
    const handleClick = ():void=>{
     setVisible(!visible);
